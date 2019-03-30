@@ -19,7 +19,8 @@ $答案 = [
     [9,6,3],
 ];
 
-function algorithm($limit, $arr){
+function algorithm($arr){
+    $limit = count($arr);
     $out = [];
     for ($i=0; $i<$limit; $i++) {
         for($j=$limit-1;$j>=0;$j--){
@@ -29,4 +30,4 @@ function algorithm($limit, $arr){
     return $out;
 }
 
-print_r(algorithm(count($a), $a));
+print_r(algorithm($a));
