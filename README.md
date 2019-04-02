@@ -4,3 +4,4 @@
 * [19位由0和1组成的字符串；开头必须为0，结尾必须为1；其中不能出现“00”或“111”。问共有多少种？并列举出所有](https://github.com/renxinqiang/Algorithm/blob/master/2019-03-30.php)
 * [有 n 个硬币，其中 1 个为假币，假币重量较轻，你有一把天平，请问，至少需要称多少次能保证一定找到假币?](https://github.com/renxinqiang/Algorithm/blob/master/2019-03-31.php)
 * [二分查找](https://github.com/renxinqiang/Algorithm/blob/master/2019-04-01.php)
+* [最大数: 给定一个非负整形列表,重新排列顺序组成一个最大的整数 注:结果会很大,返回字符串即可 例如: \[2,34,5,6,91\]=> 9165342](https://github.com/renxinqiang/Algorithm/blob/master/2019-04-02.php)
