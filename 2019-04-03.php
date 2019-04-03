@@ -41,4 +41,4 @@ while(true){
 
 
 }
-echo $num;
+echo $num; // 15瓶
