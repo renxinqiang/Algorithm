@@ -25,7 +25,6 @@ while(true){
         $jiuping++;
         $pinggai++;
         $num++;
-        continue;
     }
     if ($jiuping>=2) {
         $num+=floor($jiuping/2);
