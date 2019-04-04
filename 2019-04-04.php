@@ -7,13 +7,14 @@
  * Time: 上午11:46
  */
 
-$n = 100;
+$n = 10;
 
 for($j=$n;$j>0;$j--){
     $flag = true;
     for($i=2;$i<$j;$i++){
         if($j%$i==0){
             $flag = false;
+            break;
         }
     }
     if ($flag) {
