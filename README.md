@@ -8,3 +8,4 @@
 6. [2元买1瓶酒，2个空瓶换1瓶酒，4个瓶盖换1瓶酒，10元能喝多少瓶酒？](https://github.com/renxinqiang/Algorithm/blob/master/2019-04-03.php)
 7. [质数筛选](https://github.com/renxinqiang/Algorithm/blob/master/2019-04-04.php)
 8. [中位数查找](https://github.com/renxinqiang/Algorithm/blob/master/2019-04-23.php)
+9. [给定目标值,查找数组中两值之和等于目标值](https://github.com/renxinqiang/Algorithm/blob/master/2019-04-28.php)
