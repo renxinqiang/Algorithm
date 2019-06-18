@@ -13,13 +13,15 @@
  */
 
 
-$a = [1,2,3,4,5,6,7,8,9,10];
-$b = [11,12,13,14,15,16,17,18,19,20];
+$a = [1,3];
+$b = [2];
 
 function sum($a, $b){
     $a_count = count($a);
     $b_count = count($b);
-    if ($a_count<2) {
+    if ($a_count == 0) {
+        $a_mid = array_sum($a);
+    } elseif ($a_count<2) {
         $a_mid = array_sum($a) / $a_count;
     } else {
         if ($a_count%2==0) {
@@ -29,7 +31,9 @@ function sum($a, $b){
         }
     }
 
-    if ($b_count<2) {
+    if ($b_count == 0) {
+        $b_mid = array_sum($b);
+    } elseif ($b_count<2) {
         $b_mid = array_sum($b) / $b_count;
     } else {
         if ($b_count%2==0) {
@@ -39,7 +43,14 @@ function sum($a, $b){
         }
     }
 
-    return ($a_mid + $b_mid) / 2;
+    if ($a_count && $b_count) {
+        return ($a_mid + $b_mid) / 2;
+    } elseif ($a_count == 0 && $b_count != 0) {
+        return $b_mid;
+    } else {
+        return $a_mid;
+    }
+
 }
 
 echo sum($a, $b);// 10.5
