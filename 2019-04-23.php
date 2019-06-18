@@ -13,8 +13,8 @@
  */
 
 
-$a = [3];
-$b = [-2,-1];
+$a = [1,2];
+$b = [3,4];
 
 function sum($nums1, $nums2){
     $array = array_merge($nums1, $nums2);
@@ -28,7 +28,7 @@ function sum($nums1, $nums2){
         $mid = floor($count / 2);
         $ji = true;
     }
-    return $ou ? ($array[$mid] + $array[$mid+1]) / 2 : $array[$mid];
+    return $ou ? ($array[$mid] + $array[$mid-1]) / 2 : $array[$mid];
 }
 
 echo sum($a, $b);// 10.5
