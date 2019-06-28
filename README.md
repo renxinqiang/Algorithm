@@ -9,3 +9,5 @@
 7. [质数筛选](https://github.com/renxinqiang/Algorithm/blob/master/2019-04-04.php)
 8. [中位数查找](https://github.com/renxinqiang/Algorithm/blob/master/2019-04-23.php)
 9. [给定目标值,查找数组中两值之和等于目标值](https://github.com/renxinqiang/Algorithm/blob/master/2019-04-28.php)
+
+# 放弃该项目,转战力扣([https://leetcode-cn.com/u/rxq](https://leetcode-cn.com/u/rxq));
